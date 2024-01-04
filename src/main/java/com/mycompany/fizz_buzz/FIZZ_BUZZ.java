@@ -7,12 +7,10 @@
 package com.mycompany.fizz_buzz;
 
 public class FIZZ_BUZZ {
-
     public static void main(String[] args) {
 
         for (int i = 0; i < 101; i++) {
             
-
             //CONDICION PARA MULTIPLO DE 3
             if (i % 3 == 0) {
                 System.out.println("fizz");
@@ -27,7 +25,6 @@ public class FIZZ_BUZZ {
             }else{
                  System.out.println(i);
             }
-           
         }
     }
 }
